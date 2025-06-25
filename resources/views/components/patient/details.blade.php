@@ -9,8 +9,6 @@
             <div class="w-full">
                 <h2 class="font-extrabold">{{ $patient->full_name }} - (#{{ $patient->id }})</h2>
                 <p>{{ $patient->dob }} - {{ $patient->status }}</p>
-
-
                 <p>{{ $patient->species }} {{ $patient->gender }}</p>
                 <p>{{ $patient->email }}</p>
             </div>
@@ -19,12 +17,15 @@
     <x-slot:footer>
         <x-elements.modal
             id="my_id"
-            title="Hi There"
         >
+
             <img
                 src="{{ $patient->avatar }}"
-                alt="bleh"
-            >
+                class="rounded-xl"
+                alt="{{ $patient->full_name }}"
+                title="{{ $patient->full_name }}"
+            />
+
         </x-elements.modal>
         <x-elements.modal.trigger id="my_id">Bleh</x-elements.modal.trigger>
     </x-slot:footer>

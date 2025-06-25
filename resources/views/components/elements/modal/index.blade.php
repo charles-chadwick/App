@@ -33,7 +33,6 @@
 
         {{ $slot }}
 
-
         <div class="mt-6 text-center">
             @if($buttons != null)
                 {{ $buttons }}
