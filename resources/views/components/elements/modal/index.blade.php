@@ -31,7 +31,9 @@
             <h2 class="text-xl font-semibold mb-4">{{ $title }}</h2>
         @endif
 
+        <div {{ $attributes }}>
         {{ $slot }}
+        </div>
 
         <div class="mt-6 text-center">
             @if($buttons != null)
