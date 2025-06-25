@@ -32,3 +32,18 @@ it('has patient details', function () {
             "ants.johnson@example.com"
         ]);
 });
+
+it('shows a list of patients', function () {
+
+    // Arrange
+    $patients = Patient::factory(2)->create();
+
+    // Act & Assert
+    get(route('patient.index'))
+        ->assertOk()
+        ->assertSeeTextInOrder([
+            $patients->first()->full_name,
+            $patients->last()->full_name,
+        ]);
+
+});
