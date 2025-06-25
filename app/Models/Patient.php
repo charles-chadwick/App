@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Models\Traits\Attributes\HasAvatar;
 use App\Models\Traits\Attributes\IsPerson;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Patient extends Base
@@ -26,4 +27,7 @@ class Patient extends Base
         'deleted_by_id',
     ];
 
+    public function getDobAttribute($value) : string {
+        return Carbon::parse($value)->format('m/d/Y');
+    }
 }

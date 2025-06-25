@@ -27,7 +27,7 @@ it('has patient details', function () {
             "Ants",
             "in my Eyes",
             "Johnson",
-            "1970-01-01 - Unknown",
+            "01/01/1970 - Unknown",
             "Human Male",
             "ants.johnson@example.com"
         ]);
