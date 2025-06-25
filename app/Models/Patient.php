@@ -2,20 +2,21 @@
 
 namespace App\Models;
 
+use App\Models\Traits\Attributes\HasAvatar;
+use App\Models\Traits\Attributes\IsPerson;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Patient extends Model
+class Patient extends Base
 {
-    use HasFactory, SoftDeletes;
+    use HasFactory, HasAvatar, IsPerson;
 
     protected $fillable = [
         'status',
+        'prefix',
         'first_name',
         'middle_name',
         'last_name',
+        'suffix',
         'gender',
         'dob',
         'email',

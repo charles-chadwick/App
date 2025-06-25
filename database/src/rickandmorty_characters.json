@@ -79,7 +79,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -354,7 +354,7 @@
     {
         "id": 7,
         "name": "Abradolf Lincler",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "Genetic experiment",
         "gender": "Male",
@@ -382,7 +382,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -426,7 +426,7 @@
         "type": "Superhuman (Ghost trains summoner)",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -487,12 +487,12 @@
     {
         "id": 13,
         "name": "Alien Googah",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -509,12 +509,12 @@
     {
         "id": 14,
         "name": "Alien Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -531,12 +531,12 @@
     {
         "id": 15,
         "name": "Alien Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -558,7 +558,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -602,7 +602,7 @@
         "type": "Human with antennae",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -620,16 +620,16 @@
     {
         "id": 19,
         "name": "Antenna Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "Human with antennae",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/19.jpeg",
@@ -642,12 +642,12 @@
     {
         "id": 20,
         "name": "Ants in my Eyes Johnson",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "Human with ants in his eyes",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -664,12 +664,12 @@
     {
         "id": 21,
         "name": "Aqua Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Humanoid",
         "type": "Fish-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -687,12 +687,12 @@
     {
         "id": 22,
         "name": "Aqua Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Humanoid",
         "type": "Fish-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -711,12 +711,12 @@
     {
         "id": 23,
         "name": "Arcade Alien",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -760,7 +760,7 @@
         "id": 25,
         "name": "Armothy",
         "status": "Dead",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Self-aware arm",
         "gender": "Male",
         "origin": {
@@ -808,7 +808,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -831,7 +831,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -855,7 +855,7 @@
         "type": "Human with baby legs",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -877,11 +877,11 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/30.jpeg",
@@ -899,7 +899,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -921,7 +921,7 @@
         "type": "Parasite",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -965,7 +965,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -987,7 +987,7 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Bepisian",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Bepis 9",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/11"
@@ -1012,13 +1012,13 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Hivemind",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/36.jpeg",
@@ -1148,12 +1148,12 @@
     {
         "id": 42,
         "name": "Big Head Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "Human with giant head",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1175,7 +1175,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1197,7 +1197,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1236,7 +1236,7 @@
     {
         "id": 46,
         "name": "Bill",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Animal",
         "type": "Dog",
         "gender": "Male",
@@ -1245,7 +1245,7 @@
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/20"
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/46.jpeg",
@@ -1291,7 +1291,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1312,9 +1312,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1336,7 +1336,7 @@
         "type": "Korblock",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1358,7 +1358,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1397,12 +1397,12 @@
     {
         "id": 53,
         "name": "Blue Shirt Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1424,7 +1424,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1444,9 +1444,9 @@
         "status": "Dead",
         "species": "Alien",
         "type": "Boobloosian",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1469,7 +1469,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1491,11 +1491,11 @@
         "type": "Elephant-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/57.jpeg",
@@ -1560,11 +1560,11 @@
         "type": "Superhuman",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/60.jpeg",
@@ -1582,7 +1582,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1608,7 +1608,7 @@
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/19"
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/62.jpeg",
@@ -1626,7 +1626,7 @@
         "type": "Centaur",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1646,9 +1646,9 @@
         "status": "Dead",
         "species": "Alien",
         "type": "Organic gun",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1758,7 +1758,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1780,11 +1780,11 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/70.jpeg",
@@ -1800,7 +1800,7 @@
         "status": "Dead",
         "species": "Robot",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Earth (Replacement Dimension)",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/20"
@@ -1846,7 +1846,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1868,7 +1868,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1888,9 +1888,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1912,7 +1912,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1934,7 +1934,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1956,7 +1956,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -1977,7 +1977,7 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Animal",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Hideout Planet",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/27"
@@ -2001,7 +2001,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2023,7 +2023,7 @@
         "type": "Robot-Crocodile hybrid",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2040,7 +2040,7 @@
     {
         "id": 82,
         "name": "Cronenberg Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Cronenberg",
         "type": "",
         "gender": "Male",
@@ -2063,7 +2063,7 @@
     {
         "id": 83,
         "name": "Cronenberg Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Cronenberg",
         "type": "",
         "gender": "Male",
@@ -2091,7 +2091,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2113,7 +2113,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2136,7 +2136,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2160,7 +2160,7 @@
         "type": "Zigerion",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2296,7 +2296,7 @@
         "type": "Demon",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2336,12 +2336,12 @@
     {
         "id": 95,
         "name": "Dipper and Mabel Mortys",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2361,7 +2361,7 @@
         "status": "Dead",
         "species": "Disease",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Anatomy Park",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/5"
@@ -2383,7 +2383,7 @@
         "status": "Dead",
         "species": "Disease",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Anatomy Park",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/5"
@@ -2405,7 +2405,7 @@
         "status": "Dead",
         "species": "Disease",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Anatomy Park",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/5"
@@ -2427,7 +2427,7 @@
         "status": "Dead",
         "species": "Disease",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Anatomy Park",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/5"
@@ -2449,7 +2449,7 @@
         "status": "Dead",
         "species": "Disease",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Anatomy Park",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/5"
@@ -2471,7 +2471,7 @@
         "status": "Dead",
         "species": "Disease",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Anatomy Park",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/5"
@@ -2495,7 +2495,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2512,7 +2512,7 @@
     {
         "id": 103,
         "name": "Doofus Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -2538,9 +2538,9 @@
         "status": "Dead",
         "species": "Alien",
         "type": "Shapeshifter",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2562,7 +2562,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2579,7 +2579,7 @@
     {
         "id": 106,
         "name": "Dr. Schmidt",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "Game",
         "gender": "Male",
@@ -2629,7 +2629,7 @@
         "type": "Amoeba-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2651,7 +2651,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2734,7 +2734,7 @@
     {
         "id": 113,
         "name": "Eric Stoltz Mask Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -2756,7 +2756,7 @@
     {
         "id": 114,
         "name": "Ethan",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "Cronenberg",
         "gender": "Male",
@@ -2806,7 +2806,7 @@
         "type": "Clone",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2828,7 +2828,7 @@
         "type": "Clone",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2850,7 +2850,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2874,7 +2874,7 @@
         "type": "Robot",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2896,7 +2896,7 @@
         "type": "Clone",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2918,7 +2918,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -2940,11 +2940,11 @@
         "type": "Interdimensional gaseous being",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/122.jpeg",
@@ -2962,7 +2962,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3005,9 +3005,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Flansian",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3026,12 +3026,12 @@
     {
         "id": 126,
         "name": "Fleeb",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3075,7 +3075,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3097,7 +3097,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3121,11 +3121,11 @@
         "type": "Gromflomite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/130.jpeg",
@@ -3143,7 +3143,7 @@
         "type": "Zombodian",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3193,7 +3193,7 @@
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/36"
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/133.jpeg",
@@ -3213,7 +3213,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3235,7 +3235,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3369,7 +3369,7 @@
         "type": "Parasite",
         "gender": "Genderless",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3389,7 +3389,7 @@
         "status": "Dead",
         "species": "Alien",
         "type": "Animal",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Resort Planet",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/37"
@@ -3413,7 +3413,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3435,7 +3435,7 @@
         "type": "Gromflomite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3457,7 +3457,7 @@
         "type": "Eat shiter-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3479,7 +3479,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3501,7 +3501,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3518,7 +3518,7 @@
     {
         "id": 148,
         "name": "Goddess Beth",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Goddess",
         "gender": "Female",
@@ -3545,7 +3545,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3567,7 +3567,7 @@
         "type": "Gromflomite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3584,7 +3584,7 @@
     {
         "id": 151,
         "name": "Gwendolyn",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Robot",
         "type": "Gazorpian reproduction robot",
         "gender": "Female",
@@ -3606,12 +3606,12 @@
     {
         "id": 152,
         "name": "Hammerhead Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Humanoid",
         "type": "Hammerhead-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3632,7 +3632,7 @@
         "status": "Alive",
         "species": "Animal",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Hamster in Butt World",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/41"
@@ -3657,7 +3657,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3718,12 +3718,12 @@
     {
         "id": 157,
         "name": "Hole in the Wall Where the Men Can See it All",
-        "status": "unknown",
-        "species": "unknown",
+        "status": "Unknown",
+        "species": "Unknown",
         "type": "Hole",
         "gender": "Genderless",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3743,9 +3743,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Tuskfish",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3872,12 +3872,12 @@
     {
         "id": 164,
         "name": "Insurance Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3899,7 +3899,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -3941,7 +3941,7 @@
         "status": "Alive",
         "species": "Animal",
         "type": "Cat",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Earth (Replacement Dimension)",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/20"
@@ -4076,7 +4076,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4405,12 +4405,12 @@
     {
         "id": 187,
         "name": "Juggling Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4498,7 +4498,7 @@
         "type": "Zigerion",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4562,9 +4562,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Tentacle alien",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4608,11 +4608,11 @@
         "type": "Gromflomite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/196.jpeg",
@@ -4652,7 +4652,7 @@
         "type": "Cyborg",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4672,7 +4672,7 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Larva alien",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Larva Alien's Planet",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/51"
@@ -4693,12 +4693,12 @@
     {
         "id": 200,
         "name": "Lawyer Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4764,7 +4764,7 @@
         "type": "Snail alien",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4787,7 +4787,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4809,7 +4809,7 @@
         "type": "Tinymouth",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4831,7 +4831,7 @@
         "type": "Lizard-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4853,7 +4853,7 @@
         "type": "Alligator-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4877,7 +4877,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -4894,12 +4894,12 @@
     {
         "id": 209,
         "name": "Long Sleeved Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5009,7 +5009,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5031,7 +5031,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5096,7 +5096,7 @@
     {
         "id": 218,
         "name": "Mechanical Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Robot",
         "type": "",
         "gender": "Male",
@@ -5118,7 +5118,7 @@
     {
         "id": 219,
         "name": "Mechanical Summer",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Robot",
         "type": "",
         "gender": "Female",
@@ -5145,7 +5145,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5189,7 +5189,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5211,7 +5211,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5233,7 +5233,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5255,7 +5255,7 @@
         "type": "Conjoined twin",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5277,7 +5277,7 @@
         "type": "Sentient ant colony",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5343,7 +5343,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5382,12 +5382,12 @@
     {
         "id": 231,
         "name": "Morty Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5475,7 +5475,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5497,7 +5497,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5637,7 +5637,7 @@
     {
         "id": 242,
         "name": "Mr. Meeseeks",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Humanoid",
         "type": "Meeseeks",
         "gender": "Male",
@@ -5668,7 +5668,7 @@
         "type": "The Devil",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5690,7 +5690,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5763,11 +5763,11 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/247.jpeg",
@@ -5785,7 +5785,7 @@
         "type": "Parasite",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5802,16 +5802,16 @@
     {
         "id": 249,
         "name": "Mrs. Sanchez",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/249.jpeg",
@@ -5881,7 +5881,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5898,12 +5898,12 @@
     {
         "id": 253,
         "name": "Numbericon",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "Numbericon",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5925,7 +5925,7 @@
         "type": "Octopus-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5969,7 +5969,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -5991,7 +5991,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6013,7 +6013,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6035,7 +6035,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6057,7 +6057,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6074,12 +6074,12 @@
     {
         "id": 261,
         "name": "Photography Cyborg",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Robot",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6099,9 +6099,9 @@
         "status": "Dead",
         "species": "Alien",
         "type": "Parasite",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6123,7 +6123,7 @@
         "type": "Hairy alien",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6145,7 +6145,7 @@
         "type": "Conjoined twin",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6163,7 +6163,7 @@
         "id": 265,
         "name": "Pickle Rick",
         "status": "Alive",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Pickle",
         "gender": "Male",
         "origin": {
@@ -6185,11 +6185,11 @@
         "id": 266,
         "name": "Piece of Toast",
         "status": "Alive",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Bread",
         "gender": "Genderless",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6212,7 +6212,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6234,7 +6234,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6278,7 +6278,7 @@
         "type": "Zigerion",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6368,12 +6368,12 @@
     {
         "id": 274,
         "name": "Quantum Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6397,7 +6397,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6417,7 +6417,7 @@
         "status": "Dead",
         "species": "Animal",
         "type": "Rat",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Earth (Replacement Dimension)",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/20"
@@ -6441,7 +6441,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6463,7 +6463,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6485,7 +6485,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6507,7 +6507,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6529,7 +6529,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6546,7 +6546,7 @@
     {
         "id": 282,
         "name": "Revolio Clockberg Jr.",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "Gear-Person",
         "gender": "Male",
@@ -6575,7 +6575,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6592,12 +6592,12 @@
     {
         "id": 284,
         "name": "Rick Guilt Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6619,7 +6619,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6818,7 +6818,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6842,7 +6842,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6905,12 +6905,12 @@
     {
         "id": 298,
         "name": "Robot Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Robot",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -6927,12 +6927,12 @@
     {
         "id": 299,
         "name": "Robot Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Robot",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7125,12 +7125,12 @@
     {
         "id": 308,
         "name": "Scropon",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "Lobster-Alien",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7153,7 +7153,7 @@
         "type": "Scrotian",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7173,7 +7173,7 @@
     {
         "id": 310,
         "name": "Self-Congratulatory Jerry",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Mytholog",
         "gender": "Male",
@@ -7200,7 +7200,7 @@
         "type": "Shimshamian",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7222,9 +7222,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7242,11 +7242,11 @@
         "id": 313,
         "name": "Shleemypants",
         "status": "Alive",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Omniscient being",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7269,7 +7269,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7291,7 +7291,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7313,7 +7313,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7335,7 +7335,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7357,7 +7357,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7374,7 +7374,7 @@
     {
         "id": 319,
         "name": "Shmooglite Runner",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "Animal",
         "gender": "Male",
@@ -7396,12 +7396,12 @@
     {
         "id": 320,
         "name": "Shnoopy Bloopers",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7423,7 +7423,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7445,7 +7445,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7489,7 +7489,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7511,7 +7511,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7556,7 +7556,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7578,7 +7578,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7604,7 +7604,7 @@
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/1"
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/329.jpeg",
@@ -7624,12 +7624,12 @@
     {
         "id": 330,
         "name": "Solicitor Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7647,7 +7647,7 @@
     {
         "id": 331,
         "name": "Squanchy",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "Cat-Person",
         "gender": "Male",
@@ -7698,7 +7698,7 @@
         "type": "Stair goblin",
         "gender": "Genderless",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7722,7 +7722,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7788,7 +7788,7 @@
         "type": "Zigerion",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7860,7 +7860,7 @@
         "type": "Superhuman",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7975,7 +7975,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -7992,7 +7992,7 @@
     {
         "id": 346,
         "name": "Terry",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -8067,11 +8067,11 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/349.jpeg",
@@ -8084,7 +8084,7 @@
     {
         "id": 350,
         "name": "Thomas Lipkip",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -8109,9 +8109,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8133,7 +8133,7 @@
         "type": "Parasite",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8265,7 +8265,7 @@
         "type": "Leprechaun",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8284,12 +8284,12 @@
     {
         "id": 359,
         "name": "Tortured Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8353,9 +8353,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Traflorkian",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8401,7 +8401,7 @@
         "status": "Dead",
         "species": "Humanoid",
         "type": "Teenyverse inhabitant",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Kyle's Teenyverse",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/50"
@@ -8491,16 +8491,16 @@
     {
         "id": 368,
         "name": "Truth Tortoise",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Omniscient being",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/368.jpeg",
@@ -8513,7 +8513,7 @@
     {
         "id": 369,
         "name": "Tusked Assassin",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "Tuskfish",
         "gender": "Male",
@@ -8540,7 +8540,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8584,7 +8584,7 @@
         "type": "Hivemind",
         "gender": "Genderless",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8606,7 +8606,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8650,7 +8650,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8692,9 +8692,9 @@
         "status": "Dead",
         "species": "Alien",
         "type": "Parasite",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8711,12 +8711,12 @@
     {
         "id": 378,
         "name": "Wall Crawling Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Humanoid",
         "type": "Lizard-Person",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8733,12 +8733,12 @@
     {
         "id": 379,
         "name": "Wedding Bartender",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8755,16 +8755,16 @@
     {
         "id": 380,
         "name": "Unknown Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/380.jpeg",
@@ -8783,11 +8783,11 @@
         "type": "Chair",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/381.jpeg",
@@ -8805,7 +8805,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8827,7 +8827,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8849,7 +8849,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8866,12 +8866,12 @@
     {
         "id": 385,
         "name": "Yellow Shirt Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8893,7 +8893,7 @@
         "type": "Drumbloxian",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8911,7 +8911,7 @@
     {
         "id": 387,
         "name": "Zarbadar's Mytholog",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Mytholog",
         "gender": "Female",
@@ -8960,7 +8960,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -8985,7 +8985,7 @@
         "type": "Floop Floopian",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -9007,7 +9007,7 @@
         "type": "Parasite",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -9029,7 +9029,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -9095,7 +9095,7 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Greebybobe",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Girvonesk",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/68"
@@ -9320,7 +9320,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -9343,7 +9343,7 @@
         "status": "Alive",
         "species": "Animal",
         "type": "Teddy Bear",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Interdimensional Cable",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/6"
@@ -9450,7 +9450,7 @@
     {
         "id": 411,
         "name": "Alien Mexican Armada",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "Mexican",
         "gender": "Male",
@@ -9472,10 +9472,10 @@
     {
         "id": 412,
         "name": "Giant Cat Monster",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Animal",
         "type": "Giant Cat Monster",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Interdimensional Cable",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/6"
@@ -9494,7 +9494,7 @@
     {
         "id": 413,
         "name": "Old Women",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "Old Amazons",
         "gender": "Female",
@@ -9717,7 +9717,7 @@
         "status": "Alive",
         "species": "Animal",
         "type": "Eel",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Earth (Replacement Dimension)",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/20"
@@ -9937,13 +9937,13 @@
         "status": "Alive",
         "species": "Animal",
         "type": "Doopidoo",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/433.jpeg",
@@ -9956,16 +9956,16 @@
     {
         "id": 434,
         "name": "Super Weird Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "image": "https:\/\/rickandmortyapi.com\/api\/character\/avatar\/434.jpeg",
@@ -9981,9 +9981,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "Pripudlian",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10006,7 +10006,7 @@
         "status": "Alive",
         "species": "Alien",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Testicle Monster Dimension",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/21"
@@ -10119,7 +10119,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10141,7 +10141,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10163,7 +10163,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10185,7 +10185,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10207,7 +10207,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10229,7 +10229,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10383,7 +10383,7 @@
         "type": "Vampire",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10403,7 +10403,7 @@
         "status": "Alive",
         "species": "Alien",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "\u00c1rboles Mentirosos",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/75"
@@ -10429,7 +10429,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10451,7 +10451,7 @@
         "type": "Nano Alien",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10473,7 +10473,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10490,12 +10490,12 @@
     {
         "id": 458,
         "name": "Tax Attorney",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10517,7 +10517,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10539,7 +10539,7 @@
         "type": "Traflorkian",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10561,7 +10561,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10578,12 +10578,12 @@
     {
         "id": 462,
         "name": "Teleportation's Responsible Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10605,7 +10605,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10627,7 +10627,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10649,7 +10649,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10671,7 +10671,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10693,7 +10693,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10715,7 +10715,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10732,12 +10732,12 @@
     {
         "id": 469,
         "name": "Morphizer-XE Customer Support",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10759,7 +10759,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10781,7 +10781,7 @@
         "type": "",
         "gender": "Genderless",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10825,7 +10825,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10847,7 +10847,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10869,7 +10869,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10891,7 +10891,7 @@
         "type": "Human with a flower in his head",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10913,7 +10913,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10935,7 +10935,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10957,7 +10957,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10979,7 +10979,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -10996,12 +10996,12 @@
     {
         "id": 481,
         "name": "Retired General Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11023,7 +11023,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11045,7 +11045,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11067,7 +11067,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11089,7 +11089,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11111,7 +11111,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11133,7 +11133,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11155,7 +11155,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11177,7 +11177,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11199,7 +11199,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11221,7 +11221,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11241,9 +11241,9 @@
         "status": "Alive",
         "species": "Alien",
         "type": "",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11287,7 +11287,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11309,7 +11309,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11331,7 +11331,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -11612,7 +11612,7 @@
     {
         "id": 509,
         "name": "Bully",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -11788,7 +11788,7 @@
     {
         "id": 517,
         "name": "Wasp Rick\u2019s Clone",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Animal",
         "type": "Wasp",
         "gender": "Male",
@@ -11901,7 +11901,7 @@
         "status": "Dead",
         "species": "Animal",
         "type": "Caterpillar",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Earth (Wasp Dimension)",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/82"
@@ -11920,10 +11920,10 @@
     {
         "id": 523,
         "name": "Boglin",
-        "status": "unknown",
-        "species": "unknown",
+        "status": "Unknown",
+        "species": "Unknown",
         "type": "Toy",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Earth (Replacement Dimension)",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/20"
@@ -11942,7 +11942,7 @@
     {
         "id": 524,
         "name": "Kirkland Brand Mr. Meeseeks",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Humanoid",
         "type": "Meeseeks",
         "gender": "Male",
@@ -11969,7 +11969,7 @@
         "type": "Monogatron",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12013,7 +12013,7 @@
         "type": "Monogatron",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12035,7 +12035,7 @@
         "type": "Monogatron",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12101,7 +12101,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12145,7 +12145,7 @@
         "type": "Monogatron",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12167,7 +12167,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12321,7 +12321,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12365,7 +12365,7 @@
         "type": "Fly",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12387,7 +12387,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12409,7 +12409,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12431,7 +12431,7 @@
         "type": "Cyborg",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12453,7 +12453,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12475,7 +12475,7 @@
         "type": "Vampire",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12497,7 +12497,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12519,7 +12519,7 @@
         "type": "Cyborg",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12541,7 +12541,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12563,7 +12563,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12585,7 +12585,7 @@
         "type": "Shapeshifter",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12827,7 +12827,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12959,7 +12959,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -12998,7 +12998,7 @@
     {
         "id": 572,
         "name": "Robot Snake",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Robot",
         "type": "Snake",
         "gender": "Genderless",
@@ -13086,7 +13086,7 @@
     {
         "id": 576,
         "name": "Snake Linguist",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Animal",
         "type": "Snake",
         "gender": "Male",
@@ -13108,7 +13108,7 @@
     {
         "id": 577,
         "name": "Snake Terminator",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Robot",
         "type": "Snake",
         "gender": "Male",
@@ -13240,7 +13240,7 @@
     {
         "id": 583,
         "name": "80's snake",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Animal",
         "type": "Snake",
         "gender": "Male",
@@ -13394,7 +13394,7 @@
     {
         "id": 590,
         "name": "High Pilot",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -13416,7 +13416,7 @@
     {
         "id": 591,
         "name": "High Pilot",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -13683,7 +13683,7 @@
         "id": 603,
         "name": "Crossy",
         "status": "Alive",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Soulless Puppet",
         "gender": "Genderless",
         "origin": {
@@ -13859,7 +13859,7 @@
         "id": 611,
         "name": "Leah",
         "status": "Alive",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Soulless Puppet",
         "gender": "Female",
         "origin": {
@@ -13925,7 +13925,7 @@
         "id": 614,
         "name": "Mr. Celery & Friends",
         "status": "Alive",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Soulless Puppet",
         "gender": "Genderless",
         "origin": {
@@ -14012,7 +14012,7 @@
     {
         "id": 618,
         "name": "Private Smith",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "Soulless Puppet",
         "gender": "Male",
@@ -14211,7 +14211,7 @@
         "id": 627,
         "name": "The Concept of Time",
         "status": "Alive",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Soulless Puppet",
         "gender": "Genderless",
         "origin": {
@@ -14606,7 +14606,7 @@
     {
         "id": 645,
         "name": "Shane",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Alien",
         "type": "Glorzo",
         "gender": "Male",
@@ -14677,7 +14677,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -14699,7 +14699,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -14721,7 +14721,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -14743,7 +14743,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -14782,7 +14782,7 @@
     {
         "id": 653,
         "name": "Plane Crash Survivor",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Female",
@@ -14804,7 +14804,7 @@
     {
         "id": 654,
         "name": "Plane Crash Survivor",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -14981,7 +14981,7 @@
         "id": 662,
         "name": "Gaia",
         "status": "Alive",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Planet",
         "gender": "Female",
         "origin": {
@@ -15024,7 +15024,7 @@
     {
         "id": 664,
         "name": "Ticktock",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Humanoid",
         "type": "Clay-Person",
         "gender": "Genderless",
@@ -15140,7 +15140,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -15888,7 +15888,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -16390,7 +16390,7 @@
         "id": 726,
         "name": "Sticky",
         "status": "Alive",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Super Sperm Monster",
         "gender": "Male",
         "origin": {
@@ -16434,7 +16434,7 @@
         "id": 728,
         "name": "Sperm Queen",
         "status": "Dead",
-        "species": "unknown",
+        "species": "Unknown",
         "type": "Super Sperm Monster",
         "gender": "Female",
         "origin": {
@@ -16591,7 +16591,7 @@
         "status": "Alive",
         "species": "Humanoid",
         "type": "CHUD Human Mix",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Earth (Replacement Dimension)",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/20"
@@ -16769,7 +16769,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -16786,7 +16786,7 @@
     {
         "id": 744,
         "name": "Cenobite",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Demon",
         "gender": "Male",
@@ -16808,7 +16808,7 @@
     {
         "id": 745,
         "name": "Cenobite",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Demon",
         "gender": "Female",
@@ -16830,7 +16830,7 @@
     {
         "id": 746,
         "name": "Cenobite",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Demon",
         "gender": "Male",
@@ -16852,7 +16852,7 @@
     {
         "id": 747,
         "name": "Cenobite",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Demon",
         "gender": "Male",
@@ -16874,7 +16874,7 @@
     {
         "id": 748,
         "name": "Cenobite",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Demon",
         "gender": "Male",
@@ -16896,7 +16896,7 @@
     {
         "id": 749,
         "name": "Coat Rack Head",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Demon",
         "gender": "Male",
@@ -16918,7 +16918,7 @@
     {
         "id": 750,
         "name": "Mousetrap Nipples",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Mythological Creature",
         "type": "Demon",
         "gender": "Male",
@@ -17255,7 +17255,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17277,7 +17277,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17338,12 +17338,12 @@
     {
         "id": 769,
         "name": "Big Fat rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17365,7 +17365,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17382,12 +17382,12 @@
     {
         "id": 771,
         "name": "Ricardo Montoya",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17409,7 +17409,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17426,12 +17426,12 @@
     {
         "id": 773,
         "name": "Yo-yo Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17451,9 +17451,9 @@
         "status": "Dead",
         "species": "Alien",
         "type": "Parasite",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17473,9 +17473,9 @@
         "status": "Dead",
         "species": "Alien",
         "type": "Parasite",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17497,7 +17497,7 @@
         "type": "Anime",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17519,7 +17519,7 @@
         "type": "Anime",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17541,7 +17541,7 @@
         "type": "Anime",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17737,7 +17737,7 @@
         "status": "Alive",
         "species": "Animal",
         "type": "Crow",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Earth (Replacement Dimension)",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/20"
@@ -17762,7 +17762,7 @@
         "type": "Cookie",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17806,7 +17806,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -17828,7 +17828,7 @@
         "type": "",
         "gender": "Female",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18043,7 +18043,7 @@
     {
         "id": 801,
         "name": "7+7 Years Old Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -18087,7 +18087,7 @@
     {
         "id": 803,
         "name": "40 Years Old Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -18109,12 +18109,12 @@
     {
         "id": 804,
         "name": "Andy",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "Mascot",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18241,12 +18241,12 @@
     {
         "id": 810,
         "name": "Stan Lee Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18263,12 +18263,12 @@
     {
         "id": 811,
         "name": "Re-Build-a-Morty Morty",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18310,7 +18310,7 @@
         "status": "Alive",
         "species": "Robot",
         "type": "Crow Horse",
-        "gender": "unknown",
+        "gender": "Unknown",
         "origin": {
             "name": "Rick and Two Crows Planet",
             "url": "https:\/\/rickandmortyapi.com\/api\/location\/125"
@@ -18334,7 +18334,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18356,7 +18356,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18378,7 +18378,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18400,7 +18400,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18417,12 +18417,12 @@
     {
         "id": 818,
         "name": "Long Hair Rick",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18444,7 +18444,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18466,7 +18466,7 @@
         "type": "",
         "gender": "Male",
         "origin": {
-            "name": "unknown",
+            "name": "Unknown",
             "url": ""
         },
         "location": {
@@ -18483,7 +18483,7 @@
     {
         "id": 821,
         "name": "Gotron",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Robot",
         "type": "Ferret Robot",
         "gender": "Genderless",
@@ -18505,7 +18505,7 @@
     {
         "id": 822,
         "name": "Young Jerry",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",
@@ -18527,7 +18527,7 @@
     {
         "id": 823,
         "name": "Young Beth",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Female",
@@ -18549,7 +18549,7 @@
     {
         "id": 824,
         "name": "Young Beth",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Female",
@@ -18571,7 +18571,7 @@
     {
         "id": 825,
         "name": "Young Jerry",
-        "status": "unknown",
+        "status": "Unknown",
         "species": "Human",
         "type": "",
         "gender": "Male",

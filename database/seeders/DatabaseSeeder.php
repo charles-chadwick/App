@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // // https://rickandmortyapi.com/api/character?page=2
+        (new UserAndPatientSeeder())->run();
 
     }
 }

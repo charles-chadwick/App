@@ -11,20 +11,31 @@ return new class extends Migration {
         Schema::create('patients', function (Blueprint $table) {
             $table->id();
             $table->string('status');
-            $table->string('prefix')->nullable();
+            $table->string('prefix')
+                  ->nullable();
             $table->string('first_name');
-            $table->string('middle_name')->nullable();
+            $table->string('middle_name')
+                  ->nullable();
             $table->string('last_name');
-            $table->string('suffix')->nullable();
+            $table->string('suffix')
+                  ->nullable();
             $table->date('dob');
+
             $table->string('gender');
+            $table->string('species')
+                  ->nullable();
             $table->string('email');
             $table->string('password');
-            $table->foreignIdFor(User::class, 'created_by_id');
-            $table->foreignIdFor(User::class, 'updated_by_id')->nullable();
-            $table->foreignIdFor(User::class, 'deleted_by_id')->nullable();
+
             $table->timestamps();
             $table->softDeletes();
+            $table->integer('old_id')
+                  ->nullable();
+            $table->foreignIdFor(User::class, 'created_by_id');
+            $table->foreignIdFor(User::class, 'updated_by_id')
+                  ->nullable();
+            $table->foreignIdFor(User::class, 'deleted_by_id')
+                  ->nullable();
         });
     }
 

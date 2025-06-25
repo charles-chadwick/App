@@ -3,14 +3,14 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Database\Factories\UserFactory;
+use App\Models\Traits\Attributes\HasAvatar;
+use App\Models\Traits\Attributes\IsPerson;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class User extends Base
 {
-    use HasFactory, Notifiable;
+    use HasFactory, Notifiable, HasAvatar, IsPerson;
 
     protected $fillable = [
         'role',
