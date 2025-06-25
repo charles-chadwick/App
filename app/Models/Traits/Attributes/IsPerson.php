@@ -9,16 +9,33 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 
 trait IsPerson
 {
-    public function fullName(): Attribute
+    public function getFullNameAttribute() : string
     {
-        return Attribute::make(get: function () {
-            return collect([$this->prefix, $this->first_name, $this->middle_name, $this->last_name, $this->suffix])
-                ->filter(function ($value) {
-                    return trim($value) !== '';
-                })
-                ->implode(' ');
-        }, set: function () {
-            throw new Exception('Cannot set the classes name via full_name. Use individual fields instead.');
-        });
+        return collect([
+            $this->first_name,
+            $this->middle_name,
+            $this->last_name,
+        ])
+            ->filter(function ($value) {
+                return trim($value) !== '';
+            })
+            ->implode(' ');
+
+    }
+
+    public function getFullNameWithSalutationsAttribute() : string
+    {
+        return collect([
+            $this->prefix,
+            $this->first_name,
+            $this->middle_name,
+            $this->last_name,
+            $this->suffix
+        ])
+            ->filter(function ($value) {
+                return trim($value) !== '';
+            })
+            ->implode(' ');
+
     }
 }
