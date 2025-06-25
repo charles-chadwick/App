@@ -8,14 +8,14 @@ class PatientController extends Controller
 {
     public function index()
     {
-        $patients = Patient::all();
-
+        $patients = Patient::orderBy(request('order_by', 'first_name'), request('order_direction', 'asc'))
+                           ->paginate(request('per_page', 20));
         return view('patients.index', compact('patients'));
     }
 
     public function details(Patient $patient)
     {
-        return view('patient.details', compact('patient'));
+        return view('patients.details', compact('patient'));
 
     }
 }
