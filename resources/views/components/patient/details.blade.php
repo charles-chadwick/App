@@ -1,10 +1,10 @@
 <x-elements.card>
     <x-slot:content>
         <div class="flex">
-            <flux:avatar
+            <img
                 src="{{ $patient->avatar}}"
-                size="xl"
-                class="shrink-0 mr-4"
+                class="shrink-0 mr-4 w-24 h-24 rounded-xl"
+                alt="Bleh"
             />
             <div class="w-full">
                 <h2 class="font-extrabold">{{ $patient->full_name }} - (#{{ $patient->id }})</h2>
