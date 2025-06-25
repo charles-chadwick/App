@@ -1,0 +1,50 @@
+@props([
+    'id',
+    'title' => null,
+    'initiallyOpen' => false,
+    'buttons' => null
+])
+
+<div
+    x-data="{ isOpen: @js($initiallyOpen), open() { this.isOpen = true }, close() { this.isOpen = false } }"
+    x-show="isOpen"
+    x-cloak
+    class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-opacity-50"
+    x-ref="{{ $id }}"
+    @keydown.escape.window="close()"
+    @open-modal.window="$event.detail.id === '{{ $id }}' && open()"
+    @close-modal.window="$event.detail.id === '{{ $id }}' && close()"
+    x-transition.opacity
+>
+    <div
+        class="absolute inset-0"
+        @click="close()"
+    ></div>
+
+    <div
+        @click.stop
+        class="bg-white backdrop-opacity-100 rounded-lg shadow-xl max-w-lg w-full mx-4 p-6 z-10 transform transition-all"
+        x-show="isOpen"
+        x-transition
+    >
+        @if($title)
+            <h2 class="text-xl font-semibold mb-4">{{ $title }}</h2>
+        @endif
+
+        {{ $slot }}
+
+
+        <div class="mt-6 text-center">
+            @if($buttons != null)
+                {{ $buttons }}
+            @endif
+            <button
+                @click="close()"
+                class="px-4 py-2  text-zinc-900 rounded hover:bg-gray-300"
+            >
+                Close
+            </button>
+
+        </div>
+    </div>
+</div>
