@@ -27,17 +27,17 @@ class Base extends Model implements HasMedia
         ]);
     }
 
-    public function createdBy() : BelongsTo
+    public function createdBy(): BelongsTo
     {
         return $this->belongsTo(User::class, 'created_by_id');
     }
 
-    public function updatedBy() : BelongsTo
+    public function updatedBy(): BelongsTo
     {
         return $this->belongsTo(User::class, 'updated_by_id');
     }
 
-    public function deletedBy() : BelongsTo
+    public function deletedBy(): BelongsTo
     {
         return $this->belongsTo(User::class, 'deleted_by_id');
     }
@@ -48,7 +48,7 @@ class Base extends Model implements HasMedia
     public function getActivitylogOptions(): LogOptions
     {
         return LogOptions::defaults()
-                         ->useLogName('System');
+            ->useLogName('System');
     }
 
     public function registerMediaConversions(?Media $media = null): void

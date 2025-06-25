@@ -10,7 +10,7 @@ use Illuminate\Notifications\Notifiable;
 
 class User extends Base
 {
-    use HasFactory, Notifiable, HasAvatar, IsPerson;
+    use HasAvatar, HasFactory, IsPerson, Notifiable;
 
     protected $fillable = [
         'role',

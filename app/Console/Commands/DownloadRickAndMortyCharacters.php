@@ -3,12 +3,11 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Storage;
 
 class DownloadRickAndMortyCharacters extends Command
 {
     protected $signature = 'rickandmorty:download-characters';
+
     protected $description = 'Download all Rick and Morty characters to JSON file';
 
     public function handle()
@@ -19,16 +18,15 @@ class DownloadRickAndMortyCharacters extends Command
         $this->info('Starting download...');
 
         $characters = json_decode(file_get_contents(database_path('src/rickandmorty_characters.json')), true);
-        foreach($characters as $character) {
+        foreach ($characters as $character) {
 
             $save_to_path = database_path('src/avatars/').str_replace(' ', '-', strtolower($character['name'])).'.jpeg';
             $avatar = file_get_contents($character['image']);
-            if (!file_exists($save_to_path)) {
+            if (! file_exists($save_to_path)) {
                 file_put_contents($save_to_path, $avatar);
                 sleep(rand(0, 2));
                 echo "Downloaded {$character['name']}\n";
             }
-
 
             /**
              * "id": 1,
@@ -49,9 +47,8 @@ class DownloadRickAndMortyCharacters extends Command
              * "url": "https:\/\/rickandmortyapi.com\/api\/character\/1",
              * "created": "2017-11-04T18:48:46.250Z"
              */
-
         }
 
-        $this->info("Download complete. Saved to storage/app/rickandmorty_characters.json.");
+        $this->info('Download complete. Saved to storage/app/rickandmorty_characters.json.');
     }
 }

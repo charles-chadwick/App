@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Patient extends Base
 {
-    use HasFactory, HasAvatar, IsPerson;
+    use HasAvatar, HasFactory, IsPerson;
 
     protected $fillable = [
         'status',
@@ -27,7 +27,8 @@ class Patient extends Base
         'deleted_by_id',
     ];
 
-    public function getDobAttribute($value) : string {
+    public function getDobAttribute($value): string
+    {
         return Carbon::parse($value)->format('m/d/Y');
     }
 }
