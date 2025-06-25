@@ -14,19 +14,5 @@
             </div>
         </div>
     </x-slot:content>
-    <x-slot:footer>
-        <x-elements.modal
-            id="my_id"
-        >
-            <div class="w-full">
-            <img
-                src="{{ $patient->avatar }}"
-                class="rounded-xl mx-auto"
-                alt="{{ $patient->full_name }}"
-                title="{{ $patient->full_name }}"
-            />
-            </div>
-        </x-elements.modal>
-        <x-elements.modal.trigger id="my_id">Bleh</x-elements.modal.trigger>
-    </x-slot:footer>
+
 </x-elements.card>
