@@ -1,4 +1,4 @@
-<div x-data="{ search: '' }" class="bg-white p-2 rounded shadow-sm">
+<div x-data="{ search: '{{ request('search') }}' }" class="bg-white p-2 rounded shadow-sm">
     <form
         class="flex items-stretch gap-2"
         action="{{ url()->current() }}"
