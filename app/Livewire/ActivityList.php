@@ -13,24 +13,30 @@ class ActivityList extends Component
 
     public $activities = [];
 
-    public function mount($object): void
+    public function mount($object) : void
     {
         $this->object = $object;
-        $activities = Activity::where('subject_type', get_class($object))->where('subject_id', $this->object->id)->get();
+        $activities = Activity::where('subject_type', get_class($object))
+            ->orderBy('created_at', 'DESC')
+                              ->where('subject_id', $this->object->id)
+                              ->get();
 
         foreach ($activities as $activity) {
 
             $user = $activity->causer;
+            $full_name = $user->full_name;
 
             $this->activities[] = [
                 'description' => $activity->description,
-                'date' => Carbon::parse($activity->created_at)->format('M, d, Y @ h:i A'),
+                'date'        => Carbon::parse($activity->created_at)
+                                       ->format('M, d, Y @ h:i:s A'),
+                'full_name'   => $full_name,
             ];
         }
 
     }
 
-    public function render(): View
+    public function render() : View
     {
         return view('livewire.activity-list');
     }

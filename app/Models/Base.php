@@ -28,8 +28,9 @@ class Base extends Model implements HasMedia
     {
         return LogOptions::defaults()
             ->logAll()
+            ->logExcept(['updated_at', 'created_at'])
             ->logOnlyDirty()
-
+            ->dontSubmitEmptyLogs()
             ->useLogName('Database');
     }
 
