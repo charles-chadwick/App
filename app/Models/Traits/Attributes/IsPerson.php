@@ -9,17 +9,21 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 
 trait IsPerson
 {
-    public function getFullNameAttribute() : string
+    public function fullName() : Attribute
     {
-        return collect([
-            $this->first_name,
-            $this->middle_name,
-            $this->last_name,
-        ])
-            ->filter(function ($value) {
-                return trim($value) !== '';
-            })
-            ->implode(' ');
+        return Attribute::make(
+            get: function ($value) {
+                return collect([
+                    $this->first_name,
+                    $this->middle_name,
+                    $this->last_name,
+                ])
+                    ->filter(function ($value) {
+                        return trim($value) !== '';
+                    })
+                    ->implode(' ');
+            }
+        );
 
     }
 

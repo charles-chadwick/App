@@ -6,6 +6,7 @@ use App\Enum\UserRole;
 use App\Models\Patient;
 use App\Models\User;
 use Illuminate\Database\Seeder;
+use Spatie\Activitylog\Facades\CauserResolver;
 use Spatie\MediaLibrary\MediaCollections\Exceptions\FileDoesNotExist;
 use Spatie\MediaLibrary\MediaCollections\Exceptions\FileIsTooBig;
 
@@ -27,9 +28,10 @@ class UserAndPatientSeeder extends Seeder
                 'email' => 'admin@example.com',
                 'created_at' => '2020-01-01 00:00:00',
             ]);
-
+        CauserResolver::setCauser($admin);
         foreach ($characters as $character) {
 
+            if ($counter == 100) { exit; }
             $name = explode(' ', $character['name']);
 
             if ($counter <= 10) {
@@ -76,6 +78,7 @@ class UserAndPatientSeeder extends Seeder
                 $created_by = User::where('role', '!=', UserRole::Administrator)
                     ->inRandomOrder()
                     ->first();
+                CauserResolver::setCauser($created_by);
                 try {
 
                     $created_at = fake()->dateTimeBetween($admin->created_at, '-1 year');

@@ -16,4 +16,7 @@
             </div>
         </div>
     </x-slot:content>
+    <x-slot:footer>
+        <x-users.activity :object="$patient" />
+    </x-slot:footer>
 </x-elements.card>

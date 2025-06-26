@@ -48,7 +48,10 @@ class Base extends Model implements HasMedia
     public function getActivitylogOptions(): LogOptions
     {
         return LogOptions::defaults()
-            ->useLogName('System');
+            ->logAll()
+            ->logOnlyDirty()
+
+            ->useLogName('Database');
     }
 
     public function registerMediaConversions(?Media $media = null): void
