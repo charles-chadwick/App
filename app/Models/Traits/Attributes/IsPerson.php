@@ -10,35 +10,35 @@ trait IsPerson
 {
     public function fullName(): Attribute
     {
-        return Attribute::make(
-            get: function ($value) {
-                return collect([
-                    $this->first_name,
-                    $this->middle_name,
-                    $this->last_name,
-                ])
-                    ->filter(function ($value) {
-                        return trim($value) !== '';
-                    })
-                    ->implode(' ');
-            }
-        );
+        return Attribute::make(get: function ($value) {
+            return collect([
+                $this->first_name,
+                $this->middle_name,
+                $this->last_name,
+            ])
+                ->filter(function ($value) {
+                    return trim($value) !== '';
+                })
+                ->implode(' ');
+        });
 
     }
 
-    public function getFullNameWithSalutationsAttribute(): string
+    public function fullNameWithSalutations(): Attribute
     {
-        return collect([
-            $this->prefix,
-            $this->first_name,
-            $this->middle_name,
-            $this->last_name,
-            $this->suffix,
-        ])
-            ->filter(function ($value) {
-                return trim($value) !== '';
-            })
-            ->implode(' ');
+        return Attribute::make(get: function ($value) {
+            return collect([
+                $this->prefix,
+                $this->first_name,
+                $this->middle_name,
+                $this->last_name,
+                $this->suffix,
+            ])
+                ->filter(function ($value) {
+                    return trim($value) !== '';
+                })
+                ->implode(' ');
+        });
 
     }
 }
