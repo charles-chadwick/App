@@ -235,7 +235,9 @@
         </div>
     </main>
 </div>
-
+<!-- Global Alpine listener to open modals -->
+<div x-data="modalListener"></div>
+@fluxScripts
 @livewireScripts
 </body>
 </html>

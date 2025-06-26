@@ -9,7 +9,7 @@
     x-data="{ isOpen: @js($initiallyOpen), open() { this.isOpen = true }, close() { this.isOpen = false } }"
     x-show="isOpen"
     x-cloak
-    class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-opacity-50"
+    class="fixed inset-0 z-50 flex items-center justify-center bg-black/20 backdrop-opacity-50"
     x-ref="{{ $id }}"
     @keydown.escape.window="close()"
     @open-modal.window="$event.detail.id === '{{ $id }}' && open()"
@@ -38,14 +38,13 @@
         <div class="mt-6 text-center">
             @if($buttons != null)
                 {{ $buttons }}
-            @endif
             <button
                 @click="close()"
-                class="px-4 py-2  text-zinc-900 rounded hover:bg-gray-300"
+                class="px-4 py-2  text-zinc-900 rounded"
             >
                 Close
             </button>
-
+            @endif
         </div>
     </div>
 </div>
