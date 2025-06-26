@@ -4,7 +4,7 @@
 
     @forelse($patients as $patient)
         <div class="my-4">
-            <x-patient.details :patient="$patient" />
+            <x-patient.details :patient="$patient" wire:key="{{ $patient->id }}" />
         </div>
     @empty
         <div class="my-4">

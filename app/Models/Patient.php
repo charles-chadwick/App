@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Models\Traits\Attributes\HasAvatar;
 use App\Models\Traits\Attributes\IsPerson;
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Patient extends Base
@@ -24,8 +25,11 @@ class Patient extends Base
         'password'
     ];
 
-    public function getDobAttribute($value): string
+    public function dob() : Attribute
     {
-        return Carbon::parse($value)->format('m/d/Y');
+        return Attribute::make(
+            get: fn ($value) => $value ? Carbon::parse($value)->format('m/d/Y') : null,
+            set: fn ($value) => $value ? Carbon::parse($value)->toDateTimeString() : null,
+        );
     }
 }
