@@ -20,26 +20,6 @@ class Base extends Model implements HasMedia
     {
         parent::__construct($attributes);
 
-        $this->fillable = array_merge($this->fillable, [
-            'created_by_id',
-            'updated_by_id',
-            'deleted_by_id',
-        ]);
-    }
-
-    public function createdBy(): BelongsTo
-    {
-        return $this->belongsTo(User::class, 'created_by_id');
-    }
-
-    public function updatedBy(): BelongsTo
-    {
-        return $this->belongsTo(User::class, 'updated_by_id');
-    }
-
-    public function deletedBy(): BelongsTo
-    {
-        return $this->belongsTo(User::class, 'deleted_by_id');
     }
 
     /**

@@ -55,8 +55,6 @@ class UserAndPatientSeeder extends Seeder
                     'old_id' => $character['id'],
                     'password' => bcrypt('password'),
                     'created_at' => $created_at,
-                    'created_by_id' => $admin->id,
-                    'updated_by_id' => $admin->id,
                     'updated_at' => $created_at,
                 ]);
 
@@ -94,8 +92,6 @@ class UserAndPatientSeeder extends Seeder
                         'email' => $email,
                         'old_id' => $character['id'],
                         'dob' => rand(1940, 2023).'-'.rand(1, 12).'-'.rand(1, 28),
-                        'created_by_id' => $created_by->id,
-                        'updated_by_id' => $created_by->id,
                         'password' => bcrypt('password'),
                         'created_at' => $created_at,
                         'updated_at' => $created_at,

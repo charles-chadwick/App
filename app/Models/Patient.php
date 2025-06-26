@@ -21,10 +21,7 @@ class Patient extends Base
         'gender',
         'dob',
         'email',
-        'password',
-        'created_by_id',
-        'updated_by_id',
-        'deleted_by_id',
+        'password'
     ];
 
     public function getDobAttribute($value): string

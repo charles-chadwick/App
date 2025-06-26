@@ -29,7 +29,6 @@ class PatientFactory extends Factory
             'password' => static::$password ??= Hash::make('password'),
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
-            'created_by_id' => User::factory(),
         ];
     }
 }

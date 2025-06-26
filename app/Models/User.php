@@ -15,10 +15,14 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\Access\Authorizable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Base  implements AuthenticatableContract, AuthorizableContract, CanResetPasswordContract
+class User extends Base implements AuthenticatableContract, AuthorizableContract, CanResetPasswordContract
 {
     use Authenticatable, Authorizable, CanResetPassword, MustVerifyEmail;
     use HasAvatar, HasFactory, IsPerson, Notifiable;
+
+    public function __construct(array $attributes = []) {
+        parent::__construct($attributes);
+    }
 
     protected $fillable = [
         'role',
