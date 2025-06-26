@@ -10,4 +10,5 @@ enum PatientStatus: string
     case Inactive = 'Inactive';
     case Prospective = 'Prospective';
     case Archived = 'Archived';
+    case Unknown = 'Unknown';
 }

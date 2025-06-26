@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Enums\PatientStatus;
 use App\Enums\UserRole;
 use App\Models\Patient;
 use App\Models\User;
@@ -81,9 +82,15 @@ class UserAndPatientSeeder extends Seeder
                 CauserResolver::setCauser($created_by);
                 try {
 
+                    $status = match($character['status']) {
+                        'Alive' => PatientStatus::Active,
+                        'Dead' => PatientStatus::Inactive,
+                        default => PatientStatus::Unknown,
+                    };
+
                     $created_at = fake()->dateTimeBetween($admin->created_at, '-1 year');
                     $model = Patient::create([
-                        'status' => $character['status'],
+                        'status' => $status,
                         'prefix' => $prefix,
                         'first_name' => $first_name,
                         'last_name' => $last_name ?? '',
