@@ -1,7 +1,5 @@
 <form wire:submit="save">
-    @if(session()->has('message'))
-{{ session('message') }}
-        @endif
+    <x-elements.message />
     <div class="grid grid-cols-3 gap-4">
         <flux:input
             wire:model="first_name"
@@ -63,14 +61,14 @@
     </div>
     <div class="mt-4 text-center">
         <button
-            class="px-4 py-2  text-zinc-900 rounded hover:bg-gray-300"
+            class="px-4 py-2  text-zinc-900 rounded bg-gray-300"
             type="submit"
             wire:click="save"
         >Save
         </button>
         <button
             @click="close()"
-            class="px-4 py-2  text-zinc-900 rounded hover:bg-gray-300"
+            class="px-4 py-2  text-zinc-900 rounded bg-gray-300"
         >
             Close
         </button>
