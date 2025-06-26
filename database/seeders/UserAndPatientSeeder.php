@@ -31,7 +31,9 @@ class UserAndPatientSeeder extends Seeder
         CauserResolver::setCauser($admin);
         foreach ($characters as $character) {
 
-            if ($counter == 100) { exit; }
+            if ($counter == 100) {
+                exit;
+            }
             $name = explode(' ', $character['name']);
 
             if ($counter <= 10) {

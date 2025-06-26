@@ -11,20 +11,30 @@ use Livewire\Component;
 class PatientForm extends Component
 {
     public Patient $patient;
-    public         $status;
-    public         $prefix;
-    public         $first_name;
-    public         $middle_name;
-    public         $last_name;
-    public         $suffix;
-    public         $gender;
-    public         $dob;
-    public         $email;
+
+    public $status;
+
+    public $prefix;
+
+    public $first_name;
+
+    public $middle_name;
+
+    public $last_name;
+
+    public $suffix;
+
+    public $gender;
+
+    public $dob;
+
+    public $email;
 
     public $patient_statuses;
+
     public $patient_genders;
 
-    public function mount(Patient $patient) : void
+    public function mount(Patient $patient): void
     {
         $this->patient = $patient;
         if ($patient->id !== null) {
@@ -35,20 +45,20 @@ class PatientForm extends Component
         $this->patient_genders = PatientGender::array();
     }
 
-    public function save() : void
+    public function save(): void
     {
         $this->validate();
 
         $patient_data = [
-            'status'      => $this->status,
-            'prefix'      => $this->prefix,
-            'first_name'  => $this->first_name,
+            'status' => $this->status,
+            'prefix' => $this->prefix,
+            'first_name' => $this->first_name,
             'middle_name' => $this->middle_name,
-            'last_name'   => $this->last_name,
-            'suffix'      => $this->suffix,
-            'gender'      => $this->gender,
-            'dob'         => $this->dob,
-            'email'       => $this->email,
+            'last_name' => $this->last_name,
+            'suffix' => $this->suffix,
+            'gender' => $this->gender,
+            'dob' => $this->dob,
+            'email' => $this->email,
         ];
 
         if ($this->patient->id === null) {
@@ -62,22 +72,22 @@ class PatientForm extends Component
         session()->flash('message', $message);
     }
 
-    protected function rules() : array
+    protected function rules(): array
     {
         return [
-            'status'      => 'required',
-            'prefix'      => 'nullable',
-            'first_name'  => 'required',
+            'status' => 'required',
+            'prefix' => 'nullable',
+            'first_name' => 'required',
             'middle_name' => 'nullable',
-            'last_name'   => 'required',
-            'suffix'      => 'nullable',
-            'gender'      => 'required',
-            'dob'         => 'required|date',
-            'email'       => 'required|email',
+            'last_name' => 'required',
+            'suffix' => 'nullable',
+            'gender' => 'required',
+            'dob' => 'required|date',
+            'email' => 'required|email',
         ];
     }
 
-    public function render() : View
+    public function render(): View
     {
         return view('livewire.patient-form');
     }

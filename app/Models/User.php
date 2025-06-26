@@ -20,7 +20,8 @@ class User extends Base implements AuthenticatableContract, AuthorizableContract
     use Authenticatable, Authorizable, CanResetPassword, MustVerifyEmail;
     use HasAvatar, HasFactory, IsPerson, Notifiable;
 
-    public function __construct(array $attributes = []) {
+    public function __construct(array $attributes = [])
+    {
         parent::__construct($attributes);
     }
 

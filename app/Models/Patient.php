@@ -24,10 +24,10 @@ class Patient extends Base
         'gender',
         'dob',
         'email',
-        'password'
+        'password',
     ];
 
-    public function casts() : array
+    public function casts(): array
     {
         return [
             'status' => PatientStatus::class,
@@ -35,7 +35,7 @@ class Patient extends Base
         ];
     }
 
-    public function dob() : Attribute
+    public function dob(): Attribute
     {
         return Attribute::make(
             get: fn ($value) => $value ? Carbon::parse($value)->format('m/d/Y') : null,
