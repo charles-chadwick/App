@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use App\Enums\PatientGender;
 use App\Enums\PatientStatus;
 use App\Models\Patient;
 use Illuminate\View\View;
@@ -21,6 +22,7 @@ class PatientForm extends Component
     public         $email;
 
     public $patient_statuses;
+    public $patient_genders;
 
     public function mount(Patient $patient) : void
     {
@@ -30,6 +32,7 @@ class PatientForm extends Component
         }
 
         $this->patient_statuses = PatientStatus::array();
+        $this->patient_genders = PatientGender::array();
     }
 
     public function save() : void

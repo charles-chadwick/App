@@ -31,11 +31,15 @@
             placeholder="Suffix"
         />
 
-        <flux:input
+        <flux:select
             wire:model="gender"
             label="Gender"
-            placeholder="Gender"
-        />
+        >
+            @foreach($patient_genders as $gender)
+                <flux:select.option wire:key="{{ $gender }}">{{ $gender }}</flux:select.option>
+            @endforeach
+        </flux:select>
+
         <flux:input
             wire:model="dob"
             label="Date of Birth"

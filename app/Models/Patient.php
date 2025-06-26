@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Enums\PatientGender;
+use App\Enums\PatientStatus;
 use App\Models\Traits\Attributes\HasAvatar;
 use App\Models\Traits\Attributes\IsPerson;
 use Carbon\Carbon;
@@ -24,6 +26,14 @@ class Patient extends Base
         'email',
         'password'
     ];
+
+    public function casts() : array
+    {
+        return [
+            'status' => PatientStatus::class,
+            'gender' => PatientGender::class,
+        ];
+    }
 
     public function dob() : Attribute
     {
