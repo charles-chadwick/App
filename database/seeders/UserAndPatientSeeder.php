@@ -30,12 +30,15 @@ class UserAndPatientSeeder extends Seeder
                 'created_at' => '2020-01-01 00:00:00',
             ]);
         CauserResolver::setCauser($admin);
+
+        $already_in = [];
+
         foreach ($characters as $character) {
 
-            if ($counter == 100) {
-                exit;
+            if ($counter % 100 == 1) {
+                echo "$counter\n";
             }
-            $name = explode(' ', $character['name']);
+            $name = array_map('trim', explode(' ', $character['name']));
 
             if ($counter <= 10) {
 
@@ -48,11 +51,12 @@ class UserAndPatientSeeder extends Seeder
                 $first_name = array_shift($name);
                 $last_name = array_pop($name);
 
-                $email = strtolower("$first_name.$last_name@example.com");
+                $email = str_replace('.@', '@', strtolower("$first_name.$last_name@example.com"));
+
                 $created_at = fake()->dateTimeBetween($admin->created_at, '-1 year');
                 $model = User::create([
                     'first_name' => $first_name,
-                    'last_name' => $last_name,
+                    'last_name' => $last_name === '' ? 'N/A' : $last_name,
                     'role' => $role,
                     'email' => $email,
                     'old_id' => $character['id'],
@@ -65,8 +69,11 @@ class UserAndPatientSeeder extends Seeder
 
                 $first_name = array_shift($name);
                 $last_name = array_pop($name);
-                $middle_name = implode(' ', $name);
+
                 $email = strtolower("$first_name.$last_name@example.com");
+                if ($last_name == '') {
+                    $email = strtolower("$first_name".fake()->randomNumber(3)."@example.com");
+                }
                 $prefix = match ($character['gender']) {
                     'Male' => 'Mr',
                     'Female' => fake()->randomElement([
@@ -88,14 +95,18 @@ class UserAndPatientSeeder extends Seeder
                         default => PatientStatus::Unknown,
                     };
 
+                    $check = "$first_name|".$last_name ?? 'N/A'."|{$character['gender']}|{$status->name}|{$character['species']}";
+                    if (in_array($check, $already_in)) { continue; }
+                    $already_in[] = $check;
+
                     $created_at = fake()->dateTimeBetween($admin->created_at, '-1 year');
                     $model = Patient::create([
                         'status' => $status,
                         'prefix' => $prefix,
                         'first_name' => $first_name,
-                        'last_name' => $last_name ?? '',
+                        'last_name' => $last_name ?? 'N/A',
                         'suffix' => '',
-                        'middle_name' => $middle_name,
+                        'middle_name' => count($name) > 0 ? implode(' ', $name) : '',
                         'species' => $character['species'],
                         'gender' => $character['gender'],
                         'email' => $email,
@@ -125,5 +136,7 @@ class UserAndPatientSeeder extends Seeder
                 echo $e->getMessage();
             }
         }
+
+        echo "$counter total\n";
     }
 }

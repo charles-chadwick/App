@@ -9,4 +9,5 @@ enum PatientGender: string
     case Male = 'Male';
     case Female = 'Female';
     case Unknown = 'Unknown';
+    case Genderless = 'Genderless';
 }
