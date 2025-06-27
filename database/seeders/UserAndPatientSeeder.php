@@ -39,7 +39,7 @@ class UserAndPatientSeeder extends Seeder
                 echo "$counter\n";
             }
             $name = array_map('trim', explode(' ', $character[ 'name' ]));
-
+            if (preg_match('/7\+7/', $character[ 'name' ])) { continue; }
             if ($counter <= 10) {
 
                 $role = match (true) {
