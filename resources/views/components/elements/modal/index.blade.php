@@ -2,7 +2,8 @@
     'id',
     'title' => null,
     'initiallyOpen' => false,
-    'buttons' => null
+    'buttons' => null,
+    'max_width' => 'max-w-xl'
 ])
 
 <div
@@ -23,7 +24,7 @@
 
     <div
         @click.stop
-        class="bg-white backdrop-opacity-100 rounded-lg shadow-xl max-w-lg w-full mx-4 p-6 z-10 transform transition-all"
+        class="bg-white backdrop-opacity-100 rounded-lg shadow-xl {{ $max_width }} w-full mx-4 p-6 z-10 transform transition-all"
         x-show="isOpen"
         x-transition
     >
