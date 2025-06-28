@@ -8,16 +8,18 @@
         <div class="flex">
             <img
                 src="{{ $patient->avatar}}"
-                class="shrink-0 mr-4 w-24 h-24 rounded-xl"
-                alt="Bleh"
+                class="shrink-0 mr-4 w-24 h-24 rounded-xl border-zinc-300 border shadow-xs"
+                alt="{{ $patient->full_name }} Avatar"
             />
             <div class="w-full">
                 <a href="{{ route('patient.details', $patient) }}">
-                    <h2 class="font-extrabold text-zinc-700">{{ $patient->full_name }} - (#{{ $patient->id }})</h2>
+                    <h2 class="font-extrabold">{{ $patient->full_name }} - (#{{ $patient->id }})</h2>
                 </a>
-                <p class="text-sm mb-1">{{ $patient->dob }} - <livewire:patient-status :status="$patient->status" /></p>
-                <p class="text-sm mb-1">{{ $patient->species }} {{ $patient->gender }}</p>
-                <p class="text-sm mb-1">{{ $patient->email }}</p>
+                <p class="text-sm mb-1 text-zinc-700">{{ $patient->dob }} -
+                    <livewire:patient-status :status="$patient->status" />
+                </p>
+                <p class="text-sm mb-1 text-zinc-700">{{ $patient->species }} {{ $patient->gender }}</p>
+                <p class="text-sm mb-1 text-zinc-700">{{ $patient->email }}</p>
             </div>
             <div>
                 <flux:dropdown>
