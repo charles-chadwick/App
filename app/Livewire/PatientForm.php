@@ -5,6 +5,7 @@ namespace App\Livewire;
 use App\Enums\PatientGender;
 use App\Enums\PatientStatus;
 use App\Models\Patient;
+use Flux\Flux;
 use Illuminate\View\View;
 use Livewire\Component;
 
@@ -45,7 +46,7 @@ class PatientForm extends Component
         $this->patient_genders = PatientGender::array();
     }
 
-    public function save(): void
+    public function save()
     {
         $this->validate();
 
@@ -63,13 +64,13 @@ class PatientForm extends Component
 
         if ($this->patient->id === null) {
             $this->patient = Patient::create($patient_data);
-            $message = 'Patient has been created';
+            $message = 'The patient has been successfully created.';
         } else {
             $this->patient->update($patient_data);
-            $message = 'Patient has been updated';
+            $message = 'The patient has been successfully updated.';
         }
 
-        session()->flash('message', $message);
+        Flux::toast(text: $message, heading: 'Success', variant: 'success');
     }
 
     protected function rules(): array

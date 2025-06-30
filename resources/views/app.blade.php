@@ -227,6 +227,7 @@
     <header class="bg-white shadow-sm">
         <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <h1 class="text-3xl font-bold tracking-tight text-zinc-900">@yield('heading')</h1>
+            <x-elements.message />
         </div>
     </header>
     <main>
@@ -239,5 +240,6 @@
 <div x-data="modalListener"></div>
 @fluxScripts
 @livewireScripts
+<flux:toast position="top right" class="pt-24" />
 </body>
 </html>

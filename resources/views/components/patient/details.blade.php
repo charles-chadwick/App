@@ -31,14 +31,17 @@
                             </x-elements.modal.trigger>
                         </flux:menu.item>
                         <flux:menu.item icon="trash">
-                            <a href="#">
+                            <x-elements.modal.trigger id="delete-patient-confirm-{{ $patient->id }}">
                                 Delete Profile
-                            </a>
+                            </x-elements.modal.trigger>
                         </flux:menu.item>
                     </flux:menu>
                 </flux:dropdown>
                 <x-elements.modal id="patient-form-{{ $patient->id }}">
                     <livewire:patient-form :patient="$patient" />
+                </x-elements.modal>
+                <x-elements.modal id="delete-patient-confirm-{{ $patient->id }}">
+                    <livewire:confirm-delete :object="$patient" />
                 </x-elements.modal>
             </div>
         </div>

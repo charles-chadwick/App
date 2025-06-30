@@ -1,4 +1,4 @@
-<form wire:submit="save">
+<form wire:submit.stop="save">
     <x-elements.message />
     <div class="grid grid-cols-3 gap-4">
         <flux:input
