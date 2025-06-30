@@ -1,6 +1,5 @@
 <?php
 
-use App\Models\Discussion;
 use App\Models\Patient;
 
 use function Pest\Laravel\get;
@@ -9,17 +8,17 @@ it('has patient details', function () {
 
     // Arrange
     $patient = Patient::factory()
-                      ->create([
-                          'prefix'      => 'Mr',
-                          'first_name'  => 'Ants',
-                          'middle_name' => 'in my Eyes',
-                          'last_name'   => 'Johnson',
-                          'dob'         => '1970-01-01',
-                          'gender'      => 'Male',
-                          'species'     => 'Human',
-                          'status'      => 'Unknown',
-                          'email'       => 'ants.johnson@example.com',
-                      ]);
+        ->create([
+            'prefix' => 'Mr',
+            'first_name' => 'Ants',
+            'middle_name' => 'in my Eyes',
+            'last_name' => 'Johnson',
+            'dob' => '1970-01-01',
+            'gender' => 'Male',
+            'species' => 'Human',
+            'status' => 'Unknown',
+            'email' => 'ants.johnson@example.com',
+        ]);
 
     // Act & Assert
     get(route('patient.details', $patient))
@@ -38,8 +37,7 @@ it('has patient details', function () {
 it('shows a list of patients', function () {
 
     // Arrange
-    $patients = Patient::factory(2)
-                       ->create();
+    $patients = Patient::factory(2)->create();
 
     // Act & Assert
     get(route('patient.index'))
@@ -49,23 +47,4 @@ it('shows a list of patients', function () {
             $patients->last()->full_name,
         ]);
 
-});
-
-it('has a list of discussions', function () {
-
-    // Arrange
-    $patient = Patient::factory()
-                      ->create();
-    $discussions = Discussion::factory(2)
-                             ->create(['on'    => get_class($patient),
-                                       'on_id' => $patient->id
-                             ]);
-
-    // Act & Assert
-    get(route('patient.discussions', $patient))
-        ->assertOk()
-        ->assertSeeText([
-            $discussions->first()->title,
-            $discussions->first()->created_at,
-        ]);
 });

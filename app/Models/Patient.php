@@ -9,8 +9,6 @@ use App\Models\Traits\Attributes\IsPerson;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 class Patient extends Base
 {
@@ -43,10 +41,5 @@ class Patient extends Base
             get: fn ($value) => $value ? Carbon::parse($value)->format('m/d/Y') : null,
             set: fn ($value) => $value ? Carbon::parse($value)->toDateTimeString() : null,
         );
-    }
-
-    public function discussions() : MorphMany
-    {
-        return $this->morphMany(Discussion::class, 'discussable', 'on', 'on_id');
     }
 }
