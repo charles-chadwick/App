@@ -12,19 +12,19 @@ class EncounterFactory extends Factory
 {
     protected $model = Encounter::class;
 
-    public function definition() : array
+    public function definition(): array
     {
         return [
-            'type'       => $this->faker->word(),
+            'type' => $this->faker->word(),
 
-            'title'      => $this->faker->word(),
-            'content'    => $this->faker->word(),
-            'status'     => $this->faker->word(),
+            'title' => $this->faker->word(),
+            'content' => $this->faker->word(),
+            'status' => $this->faker->word(),
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
 
             'patient_id' => Patient::factory(),
-            'owner_id'   => User::factory(),
+            'owner_id' => User::factory(),
         ];
     }
 }

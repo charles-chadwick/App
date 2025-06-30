@@ -16,19 +16,19 @@ class UserAndPatientSeeder extends Seeder
     /**
      * Run the database seeds.
      */
-    public function run() : void
+    public function run(): void
     {
         $characters = json_decode(file_get_contents(database_path('src/rickandmorty_characters.json')), true);
         $counter = 1;
 
         $admin = User::factory()
-                     ->create([
-                         'role'       => UserRole::Administrator,
-                         'first_name' => 'Admin',
-                         'last_name'  => 'Admin',
-                         'email'      => 'admin@example.com',
-                         'created_at' => '2020-01-01 00:00:00',
-                     ]);
+            ->create([
+                'role' => UserRole::Administrator,
+                'first_name' => 'Admin',
+                'last_name' => 'Admin',
+                'email' => 'admin@example.com',
+                'created_at' => '2020-01-01 00:00:00',
+            ]);
         CauserResolver::setCauser($admin);
 
         $already_in = [];
@@ -38,14 +38,16 @@ class UserAndPatientSeeder extends Seeder
             if ($counter % 100 == 1) {
                 echo "$counter\n";
             }
-            $name = array_map('trim', explode(' ', $character[ 'name' ]));
-            if (preg_match('/7\+7/', $character[ 'name' ])) { continue; }
+            $name = array_map('trim', explode(' ', $character['name']));
+            if (preg_match('/7\+7/', $character['name'])) {
+                continue;
+            }
             if ($counter <= 10) {
 
                 $role = match (true) {
                     $counter <= 2 => UserRole::Doctor,
                     $counter <= 5 => UserRole::Nurse,
-                    default       => UserRole::Staff
+                    default => UserRole::Staff
                 };
 
                 $first_name = array_shift($name);
@@ -56,11 +58,11 @@ class UserAndPatientSeeder extends Seeder
                 $created_at = fake()->dateTimeBetween($admin->created_at, '-1 year');
                 $model = User::create([
                     'first_name' => $first_name,
-                    'last_name'  => $last_name === '' ? 'N/A' : $last_name,
-                    'role'       => $role,
-                    'email'      => $email,
-                    'old_id'     => $character[ 'id' ],
-                    'password'   => bcrypt('password'),
+                    'last_name' => $last_name === '' ? 'N/A' : $last_name,
+                    'role' => $role,
+                    'email' => $email,
+                    'old_id' => $character['id'],
+                    'password' => bcrypt('password'),
                     'created_at' => $created_at,
                     'updated_at' => $created_at,
                 ]);
@@ -72,26 +74,26 @@ class UserAndPatientSeeder extends Seeder
 
                 $email = strtolower("$first_name.$last_name@example.com");
                 if ($last_name == '') {
-                    $email = strtolower("$first_name".fake()->randomNumber(3)."@example.com");
+                    $email = strtolower("$first_name".fake()->randomNumber(3).'@example.com');
                 }
-                $prefix = match ($character[ 'gender' ]) {
-                    'Male'   => 'Mr',
+                $prefix = match ($character['gender']) {
+                    'Male' => 'Mr',
                     'Female' => fake()->randomElement([
                         'Mrs',
                         'Ms',
                     ]),
-                    default  => '',
+                    default => '',
                 };
 
                 $created_by = User::where('role', '!=', UserRole::Administrator)
-                                  ->inRandomOrder()
-                                  ->first();
+                    ->inRandomOrder()
+                    ->first();
                 CauserResolver::setCauser($created_by);
                 try {
 
-                    $status = match ($character[ 'status' ]) {
+                    $status = match ($character['status']) {
                         'Alive' => PatientStatus::Active,
-                        'Dead'  => PatientStatus::Inactive,
+                        'Dead' => PatientStatus::Inactive,
                         default => PatientStatus::Unknown,
                     };
 
@@ -104,20 +106,20 @@ class UserAndPatientSeeder extends Seeder
 
                     $created_at = fake()->dateTimeBetween($admin->created_at, '-1 year');
                     $model = Patient::create([
-                        'status'      => $status,
-                        'prefix'      => $prefix,
-                        'first_name'  => $first_name,
-                        'last_name'   => $last_name ?? 'N/A',
-                        'suffix'      => '',
+                        'status' => $status,
+                        'prefix' => $prefix,
+                        'first_name' => $first_name,
+                        'last_name' => $last_name ?? 'N/A',
+                        'suffix' => '',
                         'middle_name' => count($name) > 0 ? implode(' ', $name) : '',
-                        'species'     => $character[ 'species' ],
-                        'gender'      => $character[ 'gender' ],
-                        'email'       => $email,
-                        'old_id'      => $character[ 'id' ],
-                        'dob'         => rand(1940, 2023).'-'.rand(1, 12).'-'.rand(1, 28),
-                        'password'    => bcrypt('password'),
-                        'created_at'  => $created_at,
-                        'updated_at'  => $created_at,
+                        'species' => $character['species'],
+                        'gender' => $character['gender'],
+                        'email' => $email,
+                        'old_id' => $character['id'],
+                        'dob' => rand(1940, 2023).'-'.rand(1, 12).'-'.rand(1, 28),
+                        'password' => bcrypt('password'),
+                        'created_at' => $created_at,
+                        'updated_at' => $created_at,
                     ]);
 
                 } catch (\Exception $e) {
@@ -125,16 +127,16 @@ class UserAndPatientSeeder extends Seeder
                 }
             }
 
-            $avatar_path = database_path('src/avatars/'.str_replace(' ', '-', $character[ 'name' ]).'.jpeg');
-            if (!file_exists($avatar_path)) {
+            $avatar_path = database_path('src/avatars/'.str_replace(' ', '-', $character['name']).'.jpeg');
+            if (! file_exists($avatar_path)) {
                 echo "$avatar_path does not exist\n";
             }
 
             $counter++;
             try {
                 $model->addMedia($avatar_path)
-                      ->preservingOriginal()
-                      ->toMediaCollection('avatars');
+                    ->preservingOriginal()
+                    ->toMediaCollection('avatars');
             } catch (FileDoesNotExist|FileIsTooBig $e) {
                 echo $e->getMessage();
             }

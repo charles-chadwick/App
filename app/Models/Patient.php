@@ -44,7 +44,7 @@ class Patient extends Base
         );
     }
 
-    public function encounters() : Patient|HasMany
+    public function encounters(): Patient|HasMany
     {
         return $this->hasMany(Encounter::class);
     }

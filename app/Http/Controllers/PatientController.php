@@ -24,10 +24,11 @@ class PatientController extends Controller
 
     }
 
-    public function encounters(Patient $patient) {
+    public function encounters(Patient $patient)
+    {
         return view('patients.encounters', [
             'patient' => $patient,
-            'encounters' => $patient->encounters
+            'encounters' => $patient->encounters,
         ]);
     }
 }

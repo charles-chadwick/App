@@ -15,19 +15,19 @@ class PatientFactory extends Factory
 
     protected static ?string $password;
 
-    public function definition() : array
+    public function definition(): array
     {
         return [
-            'prefix'     => $this->faker->word,
-            'suffix'     => $this->faker->word,
-            'status'     => fake()->randomElement(PatientStatus::class),
+            'prefix' => $this->faker->word,
+            'suffix' => $this->faker->word,
+            'status' => fake()->randomElement(PatientStatus::class),
             'first_name' => $this->faker->firstName(),
-            'last_name'  => $this->faker->lastName(),
-            'dob'        => fake()->dateTimeBetween('-70 years', '-2 years'),
-            'species'    => $this->faker->word(),
-            'gender'     => fake()->randomElement(PatientGender::class),
-            'email'      => $this->faker->unique()->safeEmail,
-            'password'   => static::$password ??= Hash::make('password'),
+            'last_name' => $this->faker->lastName(),
+            'dob' => fake()->dateTimeBetween('-70 years', '-2 years'),
+            'species' => $this->faker->word(),
+            'gender' => fake()->randomElement(PatientGender::class),
+            'email' => $this->faker->unique()->safeEmail,
+            'password' => static::$password ??= Hash::make('password'),
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ];

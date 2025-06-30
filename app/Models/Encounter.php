@@ -20,12 +20,12 @@ class Encounter extends Model
         'status',
     ];
 
-    public function patient() : BelongsTo
+    public function patient(): BelongsTo
     {
         return $this->belongsTo(Patient::class);
     }
 
-    public function owner() : BelongsTo
+    public function owner(): BelongsTo
     {
         return $this->belongsTo(User::class, 'owner_id');
     }
