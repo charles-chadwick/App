@@ -16,7 +16,7 @@
                     <h2 class="font-extrabold">{{ $patient->full_name }} - (#{{ $patient->id }})</h2>
                 </a>
                 <p class="text-sm mb-1 text-zinc-700">{{ $patient->dob }} -
-                    <livewire:patient-status :status="$patient->status" />
+                    <x-patient.status :status="$patient->status" />
                 </p>
                 <p class="text-sm mb-1 text-zinc-700">{{ $patient->species }} {{ $patient->gender }}</p>
                 <p class="text-sm mb-1 text-zinc-700">{{ $patient->email }}</p>

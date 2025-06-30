@@ -46,7 +46,7 @@ class PatientForm extends Component
         $this->patient_genders = PatientGender::array();
     }
 
-    public function save()
+    public function save() : void
     {
         $this->validate();
 
@@ -90,6 +90,6 @@ class PatientForm extends Component
 
     public function render(): View
     {
-        return view('livewire.patient-form');
+        return view('livewire.patients.form');
     }
 }
