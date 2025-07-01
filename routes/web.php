@@ -12,5 +12,5 @@ Route::prefix('patients')->group(function () {
 });
 
 Route::prefix('encounters')->group(function () {
-    Route::get('/', [EncounterController::class, 'index'])->name('encounters.index');
+    Route::get('/{encounter}', [EncounterController::class, 'show'])->name('encounters.show');
 });

@@ -46,7 +46,7 @@ class EncounterList extends Component
 
     public function render() : View
     {
-        return view('livewire.encounter-list', [
+        return view('livewire.encounters.list', [
             'encounters' => $this->encounters(),
         ]);
     }

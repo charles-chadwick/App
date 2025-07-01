@@ -2,7 +2,7 @@
     "header" => null,
     "footer" => null
 ])
-<div class="divide-y divide-gray-200 overflow-hidden rounded-lg bg-white shadow-sm">
+<div {{ $attributes->merge(["class" => "divide-y divide-gray-200 overflow-hidden rounded-lg bg-white shadow-sm"]) }}>
     @if ($header != null)
         <div class="px-4 py-5 sm:px-6">
             {{ $header }}

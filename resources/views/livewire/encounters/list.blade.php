@@ -29,7 +29,9 @@
         @foreach ($encounters as $encounter)
             <flux:table.row :key="$encounter->id">
                 <flux:table.cell class="flex items-center gap-3">
+                    <a href="{{ route('encounters.show', $encounter) }}" title="Open Encounter">
                     {{ $encounter->title }}
+                    </a>
                 </flux:table.cell>
 
                 <flux:table.cell class="whitespace-nowrap">{{ $encounter->date_of_service }}</flux:table.cell>
