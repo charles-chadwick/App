@@ -6,7 +6,7 @@ use App\Models\User;
 
 use function Pest\Laravel\get;
 
-it('shows a list of encounters belonging to a patient', function () {
+it('shows a list of encounters', function () {
 
     // Arrange
     $patient = Patient::factory()
@@ -21,19 +21,21 @@ it('shows a list of encounters belonging to a patient', function () {
         ]);
     $encounters = Encounter::factory(2)
         ->create([
+            'status' => 'patient',
             'patient_id' => $patient->id,
             'owner_id' => $user,
         ]);
 
     // Act & Assert
-    get(route('patient.encounters', ['patient' => $patient->id]))
+    get(route('encounters.index', ['encounters' => $encounters]))
         ->assertOk()
         ->assertSeeTextInOrder([
             $encounters->first()->title,
             $encounters->first()->type,
             $encounters->first()->status,
-            $encounters->first()->created_at,
+            $encounters->first()->date_of_service,
             $encounters->first()->owner->full_name,
+            $encounters->first()->patient->full_name,
 
         ]);
 });
