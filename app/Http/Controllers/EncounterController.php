@@ -8,6 +8,7 @@ class EncounterController extends Controller
 {
     public function show(Encounter $encounter) {
         return view('encounters.show', [
+            'patient' => $encounter->patient,
             'encounter' => $encounter,
         ]);
     }

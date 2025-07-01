@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Enums\EncounterStatus;
 use App\Models\Encounter;
 use App\Models\Patient;
 use App\Models\User;
@@ -15,10 +16,9 @@ class EncounterFactory extends Factory
     public function definition() : array
     {
         return [
-            'type'            => $this->faker->word(),
-
-            'date_of_service' => $this->faker->word(),
-            'status'          => $this->faker->word(),
+            'type'            => fake()->randomElement(['Office Visit', 'Medication Update', 'Phone Call', 'Checkup']),
+            'date_of_service' => fake()->date(),
+            'status'          => fake()->randomElement(EncounterStatus::class),
             'title'           => $this->faker->word(),
             'content'         => $this->faker->word(),
             'created_at'      => Carbon::now(),

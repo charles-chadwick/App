@@ -7,6 +7,7 @@ use App\Enums\UserRole;
 use App\Models\Patient;
 use App\Models\User;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 use Spatie\Activitylog\Facades\CauserResolver;
 use Spatie\MediaLibrary\MediaCollections\Exceptions\FileDoesNotExist;
 use Spatie\MediaLibrary\MediaCollections\Exceptions\FileIsTooBig;
@@ -18,6 +19,7 @@ class UserAndPatientSeeder extends Seeder
      */
     public function run(): void
     {
+        DB::table('users')->truncate();
         $characters = json_decode(file_get_contents(database_path('src/rickandmorty_characters.json')), true);
         $counter = 1;
 
