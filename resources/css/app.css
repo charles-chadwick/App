@@ -14,3 +14,8 @@
     @apply px-4 py-1  text-white font-bold rounded-2xl bg-lime-500;
     @apply hover:bg-lime-300 hover:text-lime-800;
 }
+
+.btn-cancel {
+    @apply px-4 py-1  text-white font-bold rounded-2xl bg-zinc-300;
+    @apply  hover:text-zinc-800;
+}

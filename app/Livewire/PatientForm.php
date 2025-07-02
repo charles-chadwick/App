@@ -71,6 +71,7 @@ class PatientForm extends Component
         }
 
         Flux::toast(text: $message, heading: 'Success', variant: 'success');
+        $this->redirect(route('patient.details', $this->patient->id), navigate: true);
     }
 
     protected function rules(): array

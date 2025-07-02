@@ -65,14 +65,15 @@
     </div>
     <div class="mt-4 text-center">
         <button
-            class="px-4 py-2  text-zinc-900 rounded bg-gray-300"
+            class="btn-save"
             type="submit"
             wire:click="save"
         >Save
         </button>
         <button
+            type="button"
             @click="close()"
-            class="px-4 py-2  text-zinc-900 rounded bg-gray-300"
+            class="btn-cancel"
         >
             Close
         </button>
