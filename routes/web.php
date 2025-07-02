@@ -13,4 +13,5 @@ Route::prefix('patients')->group(function () {
 
 Route::prefix('encounters')->group(function () {
     Route::get('/{encounter}', [EncounterController::class, 'show'])->name('encounters.show');
+    Route::post('/{encounter}/unsign', [EncounterController::class, 'unsign'])->name('encounters.unsign');
 });

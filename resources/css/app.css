@@ -9,3 +9,8 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+.btn-save {
+    @apply px-4 py-1  text-white font-bold rounded-2xl bg-lime-500;
+    @apply hover:bg-lime-300 hover:text-lime-800;
+}

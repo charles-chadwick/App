@@ -2,16 +2,17 @@
 
 namespace App\Models;
 
+use App\Enums\EncounterStatus;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Encounter extends Model
+class Encounter extends Base
 {
-    use HasFactory, SoftDeletes;
+    use HasFactory;
+
+    public function __construct(array $attributes = []) { parent::__construct($attributes); }
 
     protected $fillable = [
         'patient_id',
@@ -22,6 +23,13 @@ class Encounter extends Model
         'title',
         'content',
     ];
+
+    public function casts() : array
+    {
+        return [
+            'status' => EncounterStatus::class,
+        ];
+    }
 
     public function dateOfService() : Attribute {
         return Attribute::make(

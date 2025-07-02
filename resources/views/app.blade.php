@@ -240,6 +240,8 @@
 <div x-data="modalListener"></div>
 @fluxScripts
 @livewireScripts
-<flux:toast position="top right" class="pt-24" />
+@persist('toast')
+    <flux:toast position="top right" class="pt-24" />
+@endpersist
 </body>
 </html>
